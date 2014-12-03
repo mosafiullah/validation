@@ -3,14 +3,15 @@
 <head>
 	<meta name="keywords" content="basic jquery validation form demo" />
 
-<script type="text/javascript" src="../js/jquery-1.6.4.js"></script>
-<script type="text/javascript" src="../script.js"></script>
+<script type="text/javascript" src="../jquery-form-validation-demos
+/js/jquery-1.6.4.js"></script>
+<!--<script type="text/javascript" src="../script.js"></script>-->
 <script type="text/javascript" src="jquery.validate.min.js"></script>
 
 
 <title>Basic jQuery Validation Form Demo | jQuery4u</title>
 
-<link rel="stylesheet" type="text/css" href="../styles.css">
+<!--<link rel="stylesheet" type="text/css" href="../styles.css">-->
 <style lang="text/css">
  /* example styles for validation form demo */
 #register-form {
@@ -96,7 +97,7 @@ h2 {
                     },
                     password: {
                         required: true,
-                        minlength: 5
+                        minlength: 8
                     },
                     agree: "required"
                 },
@@ -105,7 +106,7 @@ h2 {
                     lastname: "Please enter your lastname",
                     password: {
                         required: "Please provide a password",
-                        minlength: "Your password must be at least 5 characters long"
+                        minlength: "Your password must be at least 8 characters long"
                     },
                     email: "Please enter a valid email address",
                     agree: "Please accept our policy"
